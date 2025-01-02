@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwanCity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4966c93536d91b96764e28dd586841b7d6477a78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1e4f52f8aa3220825f7afaeb9504ada4e4beeceb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwanCity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwanCity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
