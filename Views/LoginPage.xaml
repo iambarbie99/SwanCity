@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SwanCity.ViewModels"
+             x:Class="SwanCity.Views.LoginPage"
+             Title="Login"
+             x:DataType="viewModels:LoginViewModel">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Welcome to SwanCity" 
+               FontSize="24"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0"/>
+               
+        <Entry Placeholder="Email" 
+               Keyboard="Email"
+               Text="{Binding Email}"/>
+               
+        <Entry Placeholder="Password" 
+               IsPassword="True"
+               Text="{Binding Password}"/>
+               
+        <Button Text="Login" 
+                Command="{Binding LoginCommand}"
+                BackgroundColor="#007bff"
+                TextColor="White"/>
+                
+        <Button Text="Register" 
+                Command="{Binding RegisterCommand}"
+                BackgroundColor="#28a745"
+                TextColor="White"/>
+                
+        <Button Text="Forgot Password?" 
+                Command="{Binding ResetPasswordCommand}"
+                BackgroundColor="Transparent"
+                TextColor="#007bff"/>
+    </VerticalStackLayout>
+</ContentPage>

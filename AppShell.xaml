@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SwanCity.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SwanCity"
+    Shell.FlyoutBehavior="Flyout"
+    Title="SwanCity">
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:Views.LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent
+        Title="Trip Planner"
+        ContentTemplate="{DataTemplate local:Views.TripPlannerPage}"
+        Route="TripPlannerPage" />
+
+    <ShellContent
+        Title="Promotions"
+        ContentTemplate="{DataTemplate local:Views.PromotionsPage}"
+        Route="PromotionsPage" />
+
+    <ShellContent
+        Title="Profile"
+        ContentTemplate="{DataTemplate local:Views.ProfilePage}"
+        Route="ProfilePage" />
+
+    <ShellContent
+        Title="Attractions"
+        ContentTemplate="{DataTemplate local:Views.AttractionsPage}"
+        Route="AttractionsPage" />
+
+</Shell>

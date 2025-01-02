@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SwanCity.ViewModels"
+             xmlns:models="clr-namespace:SwanCity.Models"
+             x:Class="SwanCity.Views.TripPlannerPage"
+             Title="Trip Planner"
+             x:DataType="viewModels:TripPlannerViewModel">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <!-- Package Selection -->
+            <Label Text="Select a Trip Package"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+            
+            <CollectionView ItemsSource="{Binding Packages}"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedPackage}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:TripPackage">
+                        <Grid Padding="10">
+                            <Frame CornerRadius="10"
+                                   BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
+                                                                   Dark={StaticResource DarkCardBackground}}">
+                                <Grid ColumnDefinitions="Auto,*"
+                                      RowDefinitions="Auto,Auto,Auto"
+                                      ColumnSpacing="10">
+                                    
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="80"
+                                           WidthRequest="80"
+                                           Grid.RowSpan="3"/>
+                                    
+                                    <Label Text="{Binding Name}"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           Grid.Column="1"/>
+                                    
+                                    <Label Text="{Binding Description}"
+                                           FontSize="14"
+                                           Grid.Column="1"
+                                           Grid.Row="1"/>
+                                    
+                                    <Label Text="{Binding Price, StringFormat='Price: {0:C}'}"
+                                           FontSize="14"
+                                           Grid.Column="1"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Included Attractions -->
+            <Label Text="Included Attractions"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   IsVisible="{Binding SelectedPackage, Converter={StaticResource NullToBoolConverter}}"/>
+            
+            <CollectionView ItemsSource="{Binding IncludedAttractions}"
+                            IsVisible="{Binding SelectedPackage, Converter={StaticResource NullToBoolConverter}}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:TouristAttraction">
+                        <Grid Padding="10">
+                            <Frame CornerRadius="10"
+                                   BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
+                                                                   Dark={StaticResource DarkCardBackground}}">
+                                <Grid ColumnDefinitions="Auto,*"
+                                      RowDefinitions="Auto,Auto"
+                                      ColumnSpacing="10">
+                                    
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="60"
+                                           WidthRequest="60"
+                                           Grid.RowSpan="2"/>
+                                    
+                                    <Label Text="{Binding Name}"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           Grid.Column="1"/>
+                                    
+                                    <Label Text="{Binding Description}"
+                                           FontSize="14"
+                                           Grid.Column="1"
+                                           Grid.Row="1"/>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Booking Button -->
+            <Button Text="Book Now"
+                    IsVisible="{Binding SelectedPackage, Converter={StaticResource NullToBoolConverter}}"
+                    Command="{Binding BookPackageCommand}"
+                    VerticalOptions="End"
+                    Margin="0,20,0,0"
+                    Style="{StaticResource PrimaryButton}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

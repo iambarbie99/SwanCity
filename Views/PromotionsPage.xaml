@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SwanCity.ViewModels"
+             xmlns:models="clr-namespace:SwanCity.Models"
+             x:Class="SwanCity.Views.PromotionsPage"
+             Title="Promotions"
+             x:DataType="viewModels:PromotionsViewModel">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label Text="Current Promotions"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+            
+            <CollectionView ItemsSource="{Binding Promotions}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Promotion">
+                        <Grid Padding="10">
+                            <Frame CornerRadius="10"
+                                   BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
+                                                                   Dark={StaticResource DarkCardBackground}}">
+                                <Grid ColumnDefinitions="Auto,*"
+                                      RowDefinitions="Auto,Auto,Auto"
+                                      ColumnSpacing="10">
+                                    
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="80"
+                                           WidthRequest="80"
+                                           Grid.RowSpan="3"/>
+                                    
+                                    <Label Text="{Binding Title}"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           Grid.Column="1"/>
+                                    
+                                    <Label Text="{Binding Description}"
+                                           FontSize="14"
+                                           Grid.Column="1"
+                                           Grid.Row="1"/>
+                                    
+                                    <Label Text="{Binding ValidUntil, StringFormat='Valid until: {0:d}'}"
+                                           FontSize="14"
+                                           Grid.Column="1"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
