@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B9wSUFsekQ0=",
+  "dgSpecHash": "K9ApQ8K0iEo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\SwanCity.csproj",
+  "projectFilePath": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\SwanCity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junei\\.nuget\\packages\\firebase.auth\\1.0.0\\firebase.auth.1.0.0.nupkg.sha512",
     "C:\\Users\\junei\\.nuget\\packages\\firebaseadmin\\2.4.0\\firebaseadmin.2.4.0.nupkg.sha512",

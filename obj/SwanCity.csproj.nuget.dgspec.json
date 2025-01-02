@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\SwanCity.csproj": {}
+    "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\SwanCity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\SwanCity.csproj": {
+    "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\SwanCity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\SwanCity.csproj",
+        "projectUniqueName": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\SwanCity.csproj",
         "projectName": "SwanCity",
-        "projectPath": "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\SwanCity.csproj",
+        "projectPath": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\SwanCity.csproj",
         "packagesPath": "C:\\Users\\junei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junei\\Desktop\\SwanCity\\SwanCity\\obj\\",
+        "outputPath": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

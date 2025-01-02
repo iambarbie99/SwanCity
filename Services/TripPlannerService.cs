@@ -18,7 +18,56 @@ namespace SwanCity.Services
                 IncludedAttractions = new List<string> { "1" },
                 ImageUrl = "swan_river_cruise.jpg"
             },
-            // Add more packages here
+            new TripPackage
+            {
+                Id = "2",
+                Name = "City Highlights Tour",
+                Description = "Explore the city's top landmarks and attractions",
+                Price = 120.00m,
+                DurationHours = 4,
+                IncludedAttractions = new List<string> { "2", "3", "4" },
+                ImageUrl = "city_highlights.jpg"
+            },
+            new TripPackage
+            {
+                Id = "3",
+                Name = "Wine Country Experience",
+                Description = "Visit renowned wineries and taste local varieties",
+                Price = 200.00m,
+                DurationHours = 6,
+                IncludedAttractions = new List<string> { "5", "6" },
+                ImageUrl = "wine_country.jpg"
+            },
+            new TripPackage
+            {
+                Id = "4",
+                Name = "Sunset Dinner Cruise",
+                Description = "Romantic evening cruise with gourmet dining",
+                Price = 150.00m,
+                DurationHours = 3,
+                IncludedAttractions = new List<string> { "1", "7" },
+                ImageUrl = "sunset_cruise.jpg"
+            },
+            new TripPackage
+            {
+                Id = "5",
+                Name = "Wildlife Adventure",
+                Description = "Get up close with native Australian wildlife",
+                Price = 90.00m,
+                DurationHours = 5,
+                IncludedAttractions = new List<string> { "8", "9" },
+                ImageUrl = "wildlife_adventure.jpg"
+            },
+            new TripPackage
+            {
+                Id = "6",
+                Name = "Historical Walking Tour",
+                Description = "Discover the city's rich history and architecture",
+                Price = 60.00m,
+                DurationHours = 3,
+                IncludedAttractions = new List<string> { "10", "11" },
+                ImageUrl = "walking_tour.jpg"
+            }
         };
 
         public ObservableCollection<TripPackage> GetPackages()
