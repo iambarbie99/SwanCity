@@ -16,7 +16,7 @@ namespace SwanCity.Services
                 Price = 75.00m,
                 DurationHours = 2,
                 IncludedAttractions = new List<string> { "1" },
-                ImageUrl = "swan_river_cruise.jpg"
+                ImageUrl = "Resources/Images/swan_river_cruise.jpg"
             },
             new TripPackage
             {
@@ -26,7 +26,7 @@ namespace SwanCity.Services
                 Price = 120.00m,
                 DurationHours = 4,
                 IncludedAttractions = new List<string> { "2", "3", "4" },
-                ImageUrl = "city_highlights.jpg"
+                ImageUrl = "Resources/Images/city_highlights.jpg"
             },
             new TripPackage
             {
@@ -36,7 +36,7 @@ namespace SwanCity.Services
                 Price = 200.00m,
                 DurationHours = 6,
                 IncludedAttractions = new List<string> { "5", "6" },
-                ImageUrl = "wine_country.jpg"
+                ImageUrl = "Resources/Images/wine_country.jpg"
             },
             new TripPackage
             {
@@ -46,7 +46,7 @@ namespace SwanCity.Services
                 Price = 150.00m,
                 DurationHours = 3,
                 IncludedAttractions = new List<string> { "1", "7" },
-                ImageUrl = "sunset_cruise.jpg"
+                ImageUrl = "Resources/Images/sunset_cruise.jpg"
             },
             new TripPackage
             {
@@ -56,7 +56,7 @@ namespace SwanCity.Services
                 Price = 90.00m,
                 DurationHours = 5,
                 IncludedAttractions = new List<string> { "8", "9" },
-                ImageUrl = "wildlife_adventure.jpg"
+                ImageUrl = "Resources/Images/wildlife_adventure.jpg"
             },
             new TripPackage
             {
@@ -66,7 +66,7 @@ namespace SwanCity.Services
                 Price = 60.00m,
                 DurationHours = 3,
                 IncludedAttractions = new List<string> { "10", "11" },
-                ImageUrl = "walking_tour.jpg"
+                ImageUrl = "Resources/Images/walking_tour.jpg"
             }
         };
 

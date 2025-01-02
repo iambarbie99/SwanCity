@@ -32,4 +32,9 @@
         ContentTemplate="{DataTemplate local:Views.AttractionsPage}"
         Route="AttractionsPage" />
 
+    <ShellContent
+        Title="Admin"
+        ContentTemplate="{DataTemplate local:Views.AdminPage}"
+        Route="AdminPage" />
+
 </Shell>

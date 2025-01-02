@@ -1,4 +1,16 @@
-﻿obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
+﻿obj\Debug\net9.0-android\resizetizer\r\drawable\city_highlights.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\early_bird.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\family_fun.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\group_discount.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\placeholder.txt
+obj\Debug\net9.0-android\resizetizer\r\drawable\summer_special.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\sunset_cruise.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\swan_river_cruise.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\walking_tour.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\weekend_getaway.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\wildlife_adventure.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\wine_country.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png

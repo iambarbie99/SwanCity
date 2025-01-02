@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwanCity.Views.AdminPage"
+             Title="Admin Panel">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label Text="Admin Panel"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            
+            <!-- Navigation Buttons -->
+            <Button Text="Manage Routes"
+                    Clicked="NavigateToRoutes"
+                    Style="{StaticResource PrimaryButton}"/>
+            
+            <Button Text="Manage Packages"
+                    Clicked="NavigateToPackages"
+                    Style="{StaticResource PrimaryButton}"/>
+            
+            <Button Text="Manage Promotions"
+                    Clicked="NavigateToPromotions"
+                    Style="{StaticResource PrimaryButton}"/>
+            
+            <Button Text="Manage Notifications"
+                    Clicked="NavigateToNotifications"
+                    Style="{StaticResource PrimaryButton}"/>
+            
+            <Button Text="Back to User View"
+                    Clicked="NavigateToUserView"
+                    Style="{StaticResource SecondaryButton}"
+                    Margin="0,40,0,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
