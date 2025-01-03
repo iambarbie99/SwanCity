@@ -20,92 +20,86 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SwanCity
-build_property.ProjectDir = C:\Users\junei\Downloads\GitHub\SwanCity\
+build_property.ProjectDir = C:\Users\chris\OneDrive\Desktop\GitHub\SwanCity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/App.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/AppShell.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/MainPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Resources/Styles/Colors.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Resources/Styles/Styles.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/AdminPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/AdminPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.AdminPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AdminPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AdminPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/AdvertisingCornerPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/AdvertisingCornerPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.AdvertisingCornerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AdvertisingCornerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AdvertisingCornerPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/AttractionsPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/AttractionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.AttractionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AttractionsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AttractionsPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/LoginPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/ProfilePage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.ProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/PromotionsPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/PromotionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.PromotionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PromotionsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PromotionsPage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/ReviewSharePage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/ReviewSharePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.ReviewSharePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ReviewSharePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ReviewSharePage.xaml
 
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/TripPlannerPage.xaml]
+[C:/Users/chris/OneDrive/Desktop/GitHub/SwanCity/Views/TripPlannerPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.TripPlannerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TripPlannerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TripPlannerPage.xaml
-
-[C:/Users/junei/Downloads/GitHub/SwanCity/Views/WeatherPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = SwanCity.Views.WeatherPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\WeatherPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\WeatherPage.xaml

@@ -11,62 +11,62 @@ namespace SwanCity.Services
             new TripPackage
             {
                 Id = "1",
-                Name = "Swan River Cruise",
-                Description = "Enjoy a scenic cruise along the Swan River",
+                Name = "Sibu Night Market",
+                Description = "Enjoy a delicious cuisine at the night market",
                 Price = 75.00m,
                 DurationHours = 2,
                 IncludedAttractions = new List<string> { "1" },
-                ImageUrl = "Resources/Images/swan_river_cruise.jpg"
+                ImageUrl = "Resources/Images/sibu_night_market.jpg"
             },
             new TripPackage
             {
                 Id = "2",
-                Name = "City Highlights Tour",
-                Description = "Explore the city's top landmarks and attractions",
+                Name = "Tua Pek Kong Temple",
+                Description = "Explore the city's beautiful temple",
                 Price = 120.00m,
                 DurationHours = 4,
                 IncludedAttractions = new List<string> { "2", "3", "4" },
-                ImageUrl = "Resources/Images/city_highlights.jpg"
+                ImageUrl = "Resources/Images/tua_pek_kong.jpg"
             },
             new TripPackage
             {
                 Id = "3",
-                Name = "Wine Country Experience",
-                Description = "Visit renowned wineries and taste local varieties",
+                Name = "Sibu Heritage Centre",
+                Description = "Visit the museum in Sibu",
                 Price = 200.00m,
                 DurationHours = 6,
                 IncludedAttractions = new List<string> { "5", "6" },
-                ImageUrl = "Resources/Images/wine_country.jpg"
+                ImageUrl = "Resources/Images/heritage.jpg"
             },
             new TripPackage
             {
                 Id = "4",
-                Name = "Sunset Dinner Cruise",
-                Description = "Romantic evening cruise with gourmet dining",
+                Name = "Bukit Lima Forest Park",
+                Description = "Adventure on a journey to Bukit Lima Forest Park",
                 Price = 150.00m,
                 DurationHours = 3,
                 IncludedAttractions = new List<string> { "1", "7" },
-                ImageUrl = "Resources/Images/sunset_cruise.jpg"
+                ImageUrl = "Resources/Images/bukit.jpg"
             },
             new TripPackage
             {
                 Id = "5",
-                Name = "Wildlife Adventure",
-                Description = "Get up close with native Australian wildlife",
+                Name = "Tiger Emperor Temple",
+                Description = "Get up close with one of the most stunning temples in Sibu",
                 Price = 90.00m,
                 DurationHours = 5,
                 IncludedAttractions = new List<string> { "8", "9" },
-                ImageUrl = "Resources/Images/wildlife_adventure.jpg"
+                ImageUrl = "Resources/Images/tiger.jpg"
             },
             new TripPackage
             {
                 Id = "6",
-                Name = "Historical Walking Tour",
-                Description = "Discover the city's rich history and architecture",
+                Name = "Star Mega Mall",
+                Description = "Your ultimate destination for shopping and entertainment!",
                 Price = 60.00m,
                 DurationHours = 3,
                 IncludedAttractions = new List<string> { "10", "11" },
-                ImageUrl = "Resources/Images/walking_tour.jpg"
+                ImageUrl = "Resources/Images/star.jpg"
             }
         };
 

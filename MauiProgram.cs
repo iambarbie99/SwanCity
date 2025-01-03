@@ -36,7 +36,6 @@ namespace SwanCity
             builder.Services.AddTransient<ViewModels.TripPlannerViewModel>();
             builder.Services.AddTransient<ViewModels.ReviewShareViewModel>();
             builder.Services.AddTransient<ViewModels.AdvertisingCornerViewModel>();
-            builder.Services.AddTransient<ViewModels.WeatherViewModel>();
 
             // Register pages
             builder.Services.AddTransient<Views.LoginPage>();
@@ -46,7 +45,7 @@ namespace SwanCity
             builder.Services.AddTransient<Views.TripPlannerPage>();
             builder.Services.AddTransient<Views.ReviewSharePage>();
             builder.Services.AddTransient<Views.AdvertisingCornerPage>();
-            builder.Services.AddTransient<Views.WeatherPage>();
+            
 
             // Register converters
             builder.Services.AddSingleton<RatingToIndexConverter>();

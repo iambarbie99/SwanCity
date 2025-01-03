@@ -10,9 +10,9 @@ namespace SwanCity.Services
             new TouristAttraction
             {
                 Id = "1",
-                Name = "Swan River",
-                Description = "Beautiful river running through the city",
-                ImageUrl = "swan_river.jpg",
+                Name = "1 Malaysia Culture Village",
+                Description = "Discover the culture of townspeople in Sibu!",
+                ImageUrl = "culture.jpg",
                 Latitude = -31.9523,
                 Longitude = 115.8613,
                 Tags = new List<string> { "Nature", "River", "Scenic" },
@@ -26,9 +26,9 @@ namespace SwanCity.Services
             new TouristAttraction
             {
                 Id = "2",
-                Name = "Kings Park",
-                Description = "A large park with beautiful gardens and scenic views",
-                ImageUrl = "kings_park.jpg",
+                Name = "Permai Lake Garden",
+                Description = "here every corner is a postcard-worthy view!",
+                ImageUrl = "permai.jpg",
                 Latitude = -31.9617,
                 Longitude = 115.8425,
                 Tags = new List<string> { "Nature", "Park", "Scenic" },
@@ -42,9 +42,9 @@ namespace SwanCity.Services
             new TouristAttraction
             {
                 Id = "3",
-                Name = "Perth Zoo",
-                Description = "A zoo with a wide variety of animals and exhibits",
-                ImageUrl = "perth_zoo.jpg",
+                Name = "Hoover Memorial Garden",
+                Description = "Breathe in the fragrance of tranquility!",
+                ImageUrl = "hoover.jpg",
                 Latitude = -31.9685,
                 Longitude = 115.8537,
                 Tags = new List<string> { "Nature", "Zoo", "Animals" },

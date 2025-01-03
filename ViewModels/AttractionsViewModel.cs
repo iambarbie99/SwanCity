@@ -141,8 +141,8 @@ namespace SwanCity.ViewModels
                         Label = attraction.Name ?? "Unknown Attraction",
                         Address = attraction.Address ?? "Unknown Address",
                         Location = new Microsoft.Maui.Devices.Sensors.Location(
-                            IsValidLatitude(attraction.Latitude) ? attraction.Latitude : -31.9523, // Default to Perth coordinates
-                            IsValidLongitude(attraction.Longitude) ? attraction.Longitude : 115.8613),
+                            IsValidLatitude(attraction.Latitude) ? attraction.Latitude : 2.3409946, // Default to Perth coordinates
+                            IsValidLongitude(attraction.Longitude) ? attraction.Longitude : 111.8449278),
                         Type = Microsoft.Maui.Controls.Maps.PinType.Place
                     };
                     

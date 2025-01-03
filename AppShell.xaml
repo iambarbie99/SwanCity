@@ -28,11 +28,6 @@
         Route="AdvertisingCornerPage" />
 
     <ShellContent
-        Title="Weather"
-        ContentTemplate="{DataTemplate local:Views.WeatherPage}"
-        Route="WeatherPage" />
-
-    <ShellContent
         Title="Share Review"
         ContentTemplate="{DataTemplate local:Views.ReviewSharePage}"
         Route="ReviewSharePage" />
