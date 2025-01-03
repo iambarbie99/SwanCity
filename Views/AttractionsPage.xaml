@@ -6,25 +6,27 @@
              xmlns:models="clr-namespace:SwanCity.Models"
              x:Class="SwanCity.Views.AttractionsPage"
              Title="Tourist Attractions"
-             x:DataType="viewModels:AttractionsViewModel">
+             x:DataType="viewModels:AttractionsViewModel"
+             BackgroundColor="White">
 
-    <Grid>
+    <Grid RowDefinitions="Auto,*">
         <maps:Map x:Name="attractionsMap"
                   MapType="Street"
                   IsShowingUser="True"
+                  HeightRequest="300"
                   Grid.Row="0"
-                  Grid.Column="0"
-                  Grid.ColumnSpan="2"/>
-        
+                  Margin="0,0,0,10"/>
+
         <CollectionView Grid.Row="1"
-                        Grid.Column="0"
                         ItemsSource="{Binding Attractions}"
                         SelectionMode="Single"
-                        SelectedItem="{Binding SelectedAttraction}">
+                        SelectedItem="{Binding SelectedAttraction}"
+                        Margin="10">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:TouristAttraction">
                     <Grid Padding="10">
-                        <Border Stroke="Transparent"
+                        <Border Stroke="LightGray"
+                                StrokeThickness="1"
                                 StrokeShape="RoundRectangle 15"
                                 BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
                                                                 Dark={StaticResource DarkCardBackground}}"
@@ -42,29 +44,35 @@
                                         WidthRequest="120"
                                         Grid.RowSpan="3">
                                     <Image Source="{Binding ImageUrl}"
-                                           Aspect="AspectFill"/>
+                                           Aspect="AspectFill"
+                                           HeightRequest="120"
+                                           WidthRequest="120"
+                                           Margin="0"/>
                                 </Border>
-                                
+
                                 <Label Text="{Binding Name}"
                                        FontSize="20"
                                        FontAttributes="Bold"
                                        TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
                                        Grid.Row="0"
-                                       Grid.Column="1"/>
-                                
+                                       Grid.Column="1"
+                                       VerticalOptions="Center"/>
+
                                 <Label Text="{Binding Description}"
                                        FontSize="14"
                                        MaxLines="2"
                                        LineBreakMode="TailTruncation"
                                        TextColor="{AppThemeBinding Light={StaticResource SecondaryText}, Dark={StaticResource SecondaryTextDark}}"
                                        Grid.Row="1"
-                                       Grid.Column="1"/>
-                                
+                                       Grid.Column="1"
+                                       VerticalOptions="Center"/>
+
                                 <Label Text="{Binding Address}"
                                        FontSize="12"
                                        TextColor="{AppThemeBinding Light={StaticResource TertiaryText}, Dark={StaticResource TertiaryTextDark}}"
                                        Grid.Row="2"
-                                       Grid.Column="1"/>
+                                       Grid.Column="1"
+                                       VerticalOptions="Center"/>
                             </Grid>
                         </Border>
                     </Grid>

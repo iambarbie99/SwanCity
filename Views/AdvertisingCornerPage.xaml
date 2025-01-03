@@ -2,82 +2,108 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SwanCity.Views.AdvertisingCornerPage"
-             Title="Advertising Corner">
-    
+             Title="Advertising Corner"
+             BackgroundColor="White">
+
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="15">
-            
+        <VerticalStackLayout Padding="20" Spacing="20">
+
             <!-- Ad 1 -->
-            <Frame Padding="10" BackgroundColor="#F0F0F0">
+            <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <VerticalStackLayout>
-                    <Label Text="Ad 1: Swan River Cruise"
-                          FontSize="18"
-                          FontAttributes="Bold"/>
-                    <Label Text="Enjoy a scenic cruise along the Swan River!"
-                          FontSize="14"/>
                     <Image Source="swan_river_cruise.jpg"
-                           HeightRequest="150"
-                           Aspect="AspectFill"/>
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Swan River Cruise"
+                          FontSize="20"
+                          FontAttributes="Bold"
+                          TextColor="#333"
+                          Margin="10,0,10,0"/>
+                    <Label Text="Enjoy a scenic cruise along the Swan River!"
+                          FontSize="16"
+                          TextColor="#666"
+                          Margin="10,0,10,10"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Ad 2 -->
-            <Frame Padding="10" BackgroundColor="#F0F0F0">
+            <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <VerticalStackLayout>
-                    <Label Text="Ad 2: Wildlife Adventure"
-                          FontSize="18"
-                          FontAttributes="Bold"/>
-                    <Label Text="Explore native wildlife in their natural habitat!"
-                          FontSize="14"/>
                     <Image Source="wildlife_adventure.jpg"
-                           HeightRequest="150"
-                           Aspect="AspectFill"/>
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Wildlife Adventure"
+                          FontSize="20"
+                          FontAttributes="Bold"
+                          TextColor="#333"
+                          Margin="10,0,10,0"/>
+                    <Label Text="Explore native wildlife in their natural habitat!"
+                          FontSize="16"
+                          TextColor="#666"
+                          Margin="10,0,10,10"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Ad 3 -->
-            <Frame Padding="10" BackgroundColor="#F0F0F0">
+            <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <VerticalStackLayout>
-                    <Label Text="Ad 3: Wine Country Tour"
-                          FontSize="18"
-                          FontAttributes="Bold"/>
-                    <Label Text="Taste the best wines in the region!"
-                          FontSize="14"/>
                     <Image Source="wine_country.jpg"
-                           HeightRequest="150"
-                           Aspect="AspectFill"/>
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Wine Country Tour"
+                          FontSize="20"
+                          FontAttributes="Bold"
+                          TextColor="#333"
+                          Margin="10,0,10,0"/>
+                    <Label Text="Taste the best wines in the region!"
+                          FontSize="16"
+                          TextColor="#666"
+                          Margin="10,0,10,10"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Ad 4 -->
-            <Frame Padding="10" BackgroundColor="#F0F0F0">
+            <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <VerticalStackLayout>
-                    <Label Text="Ad 4: City Highlights"
-                          FontSize="18"
-                          FontAttributes="Bold"/>
-                    <Label Text="Discover the city's most iconic landmarks!"
-                          FontSize="14"/>
                     <Image Source="city_highlights.jpg"
-                           HeightRequest="150"
-                           Aspect="AspectFill"/>
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,10"/>
+                    <Label Text="City Highlights"
+                          FontSize="20"
+                          FontAttributes="Bold"
+                          TextColor="#333"
+                          Margin="10,0,10,0"/>
+                    <Label Text="Discover the city's most iconic landmarks!"
+                          FontSize="16"
+                          TextColor="#666"
+                          Margin="10,0,10,10"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Ad 5 -->
-            <Frame Padding="10" BackgroundColor="#F0F0F0">
+            <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <VerticalStackLayout>
-                    <Label Text="Ad 5: Sunset Cruise"
-                          FontSize="18"
-                          FontAttributes="Bold"/>
-                    <Label Text="Experience breathtaking sunsets on the river!"
-                          FontSize="14"/>
                     <Image Source="sunset_cruise.jpg"
-                           HeightRequest="150"
-                           Aspect="AspectFill"/>
+                           HeightRequest="200"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Sunset Cruise"
+                          FontSize="20"
+                          FontAttributes="Bold"
+                          TextColor="#333"
+                          Margin="10,0,10,0"/>
+                    <Label Text="Experience breathtaking sunsets on the river!"
+                          FontSize="16"
+                          TextColor="#666"
+                          Margin="10,0,10,10"/>
                 </VerticalStackLayout>
             </Frame>
-            
+
         </VerticalStackLayout>
     </ScrollView>
-    
+
 </ContentPage>

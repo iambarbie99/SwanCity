@@ -18,11 +18,44 @@ namespace SwanCity.Services
                 Tags = new List<string> { "Nature", "River", "Scenic" },
                 Rating = 4.7,
                 ReviewCount = 1200,
-                Address = "Perth, Western Australia",
+                Address = "Sibu, Sarawak",
                 PhoneNumber = "+61 8 9461 3333",
                 Website = "https://www.swanriver.com.au",
                 RouteIds = new List<string> { "1", "2" }
             },
+            new TouristAttraction
+            {
+                Id = "2",
+                Name = "Kings Park",
+                Description = "A large park with beautiful gardens and scenic views",
+                ImageUrl = "kings_park.jpg",
+                Latitude = -31.9617,
+                Longitude = 115.8425,
+                Tags = new List<string> { "Nature", "Park", "Scenic" },
+                Rating = 4.8,
+                ReviewCount = 1500,
+                Address = "Fraser Ave, Jalan Wangi WA 6005, Sibu",
+                PhoneNumber = "+61 8 9480 3600",
+                Website = "https://www.bgpa.wa.gov.au/kings-park",
+                RouteIds = new List<string> { "1", "3" }
+            },
+            new TouristAttraction
+            {
+                Id = "3",
+                Name = "Perth Zoo",
+                Description = "A zoo with a wide variety of animals and exhibits",
+                ImageUrl = "perth_zoo.jpg",
+                Latitude = -31.9685,
+                Longitude = 115.8537,
+                Tags = new List<string> { "Nature", "Zoo", "Animals" },
+                Rating = 4.6,
+                ReviewCount = 1100,
+                Address = "20 Labouchere Rd, South West WA 6151, Sibu",
+                PhoneNumber = "+61 8 9474 0444",
+                Website = "https://perthzoo.wa.gov.au",
+                RouteIds = new List<string> { "2", "3" }
+            },
+
             // Add more attractions here
         };
 
