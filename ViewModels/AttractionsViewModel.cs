@@ -8,7 +8,7 @@ using SwanCity.Services;
 
 namespace SwanCity.ViewModels
 {
-    public class AttractionsViewModel : INotifyPropertyChanged
+    public partial class AttractionsViewModel : INotifyPropertyChanged
     {
         private Microsoft.Maui.Controls.Maps.Map? _map;
         public Microsoft.Maui.Controls.Maps.Map? Map
@@ -48,36 +48,111 @@ namespace SwanCity.ViewModels
 
         public AttractionsViewModel()
         {
-            _attractionService = new AttractionService();
-            _notificationService = new NotificationService();
-            LoadAttractions();
-            TriggerExampleNotifications();
+            try
+            {
+                Console.WriteLine("Initializing AttractionsViewModel...");
+                
+                _attractionService = new AttractionService();
+                if (_attractionService == null)
+                {
+                    throw new Exception("Failed to initialize AttractionService");
+                }
+                Console.WriteLine("AttractionService initialized successfully");
+
+                _notificationService = new NotificationService();
+                if (_notificationService == null)
+                {
+                    throw new Exception("Failed to initialize NotificationService");
+                }
+                Console.WriteLine("NotificationService initialized successfully");
+
+                InitializeMap();
+                LoadAttractions();
+                TriggerExampleNotifications();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error initializing AttractionsViewModel: {ex}");
+                throw;
+            }
+        }
+
+        private void InitializeMap()
+        {
+            try
+            {
+                Console.WriteLine("Initializing Map...");
+                Map = new Microsoft.Maui.Controls.Maps.Map();
+                if (Map == null)
+                {
+                    throw new Exception("Failed to initialize Map");
+                }
+                Console.WriteLine("Map initialized successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error initializing Map: {ex}");
+                throw;
+            }
         }
 
         public void LoadAttractions()
         {
-            Attractions = _attractionService.GetAttractions();
-            AddPinsToMap();
+            var attractions = _attractionService?.GetAttractions();
+            if (attractions != null)
+            {
+                Attractions = new ObservableCollection<TouristAttraction>(attractions);
+                AddPinsToMap();
+            }
         }
 
         private void AddPinsToMap()
         {
-            if (Map == null || Attractions == null) return;
-
-            foreach (var attraction in Attractions)
+            try
             {
-                var pin = new Microsoft.Maui.Controls.Maps.Pin
+                if (Map is null)
                 {
-                    Label = attraction.Name,
-                    Address = attraction.Address,
-                    Location = new Microsoft.Maui.Devices.Sensors.Location(attraction.Latitude, attraction.Longitude),
-                    Type = Microsoft.Maui.Controls.Maps.PinType.Place
-                };
-                
-                if (Map != null)
+                    Console.WriteLine("Map is null in AddPinsToMap");
+                    return;
+                }
+
+                if (Attractions is null)
                 {
+                    Console.WriteLine("Attractions is null in AddPinsToMap");
+                    return;
+                }
+
+                if (Map.Pins is null)
+                {
+                    Console.WriteLine("Map.Pins is null in AddPinsToMap");
+                    return;
+                }
+
+                foreach (var attraction in Attractions)
+                {
+                    if (attraction?.Name == null || attraction?.Address == null)
+                    {
+                        Console.WriteLine($"Skipping attraction with null Name or Address");
+                        continue;
+                    }
+
+                    var pin = new Microsoft.Maui.Controls.Maps.Pin
+                    {
+                        Label = attraction.Name ?? "Unknown Attraction",
+                        Address = attraction.Address ?? "Unknown Address",
+                        Location = new Microsoft.Maui.Devices.Sensors.Location(
+                            IsValidLatitude(attraction.Latitude) ? attraction.Latitude : -31.9523, // Default to Perth coordinates
+                            IsValidLongitude(attraction.Longitude) ? attraction.Longitude : 115.8613),
+                        Type = Microsoft.Maui.Controls.Maps.PinType.Place
+                    };
+                    
                     Map.Pins.Add(pin);
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in AddPinsToMap: {ex}");
+                throw;
             }
         }
 
@@ -108,6 +183,16 @@ namespace SwanCity.ViewModels
             await _notificationService.NotifyTripReminder(
                 "Swan River Cruise",
                 DateTime.Now.AddMinutes(1));
+        }
+
+        private bool IsValidLatitude(double? latitude)
+        {
+            return latitude.HasValue && latitude >= -90 && latitude <= 90;
+        }
+
+        private bool IsValidLongitude(double? longitude)
+        {
+            return longitude.HasValue && longitude >= -180 && longitude <= 180;
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

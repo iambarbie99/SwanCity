@@ -24,23 +24,31 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:TouristAttraction">
                     <Grid Padding="10">
-                        <Frame CornerRadius="10"
-                               BackgroundColor="White"
-                               Padding="0">
+                        <Border Stroke="Transparent"
+                                StrokeShape="RoundRectangle 15"
+                                BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
+                                                                Dark={StaticResource DarkCardBackground}}"
+                                Shadow="{AppThemeBinding Light={StaticResource CardShadowLight}, 
+                                                        Dark={StaticResource CardShadowDark}}"
+                                Padding="0">
                             <Grid ColumnDefinitions="Auto,*"
-                                  RowDefinitions="Auto,Auto,Auto">
-                                <Image Source="{Binding ImageUrl}"
-                                       Aspect="AspectFill"
-                                       HeightRequest="100"
-                                       WidthRequest="100"
-                                       Grid.Row="0"
-                                       Grid.Column="0"
-                                       Grid.RowSpan="3"/>
+                                  RowDefinitions="Auto,Auto,Auto"
+                                  ColumnSpacing="15"
+                                  RowSpacing="8">
+                                <Border Stroke="Transparent"
+                                        StrokeShape="RoundRectangle 10"
+                                        Padding="0"
+                                        HeightRequest="120"
+                                        WidthRequest="120"
+                                        Grid.RowSpan="3">
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"/>
+                                </Border>
                                 
                                 <Label Text="{Binding Name}"
-                                       FontSize="18"
+                                       FontSize="20"
                                        FontAttributes="Bold"
-                                       Margin="10,5,0,0"
+                                       TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
                                        Grid.Row="0"
                                        Grid.Column="1"/>
                                 
@@ -48,18 +56,17 @@
                                        FontSize="14"
                                        MaxLines="2"
                                        LineBreakMode="TailTruncation"
-                                       Margin="10,0,0,0"
+                                       TextColor="{AppThemeBinding Light={StaticResource SecondaryText}, Dark={StaticResource SecondaryTextDark}}"
                                        Grid.Row="1"
                                        Grid.Column="1"/>
                                 
                                 <Label Text="{Binding Address}"
                                        FontSize="12"
-                                       TextColor="Gray"
-                                       Margin="10,0,0,5"
+                                       TextColor="{AppThemeBinding Light={StaticResource TertiaryText}, Dark={StaticResource TertiaryTextDark}}"
                                        Grid.Row="2"
                                        Grid.Column="1"/>
                             </Grid>
-                        </Frame>
+                        </Border>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

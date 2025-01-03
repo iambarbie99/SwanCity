@@ -13,7 +13,7 @@ namespace SwanCity.Services
                 Id = "1",
                 Title = "Summer Special",
                 Description = "Get 20% off all Swan River Cruises",
-                ImageUrl = "summer_special.jpg",
+                ImageUrl = "Resources/Images/summer_special.jpg",
                 ValidUntil = DateTime.Now.AddDays(30)
             },
             new Promotion
@@ -21,7 +21,7 @@ namespace SwanCity.Services
                 Id = "2",
                 Title = "Family Fun Package",
                 Description = "Buy 2 adult tickets, get 1 child ticket free for all attractions",
-                ImageUrl = "family_fun.jpg",
+                ImageUrl = "Resources/Images/family_fun.jpg",
                 ValidUntil = DateTime.Now.AddDays(45)
             },
             new Promotion
@@ -29,7 +29,7 @@ namespace SwanCity.Services
                 Id = "3",
                 Title = "Weekend Getaway",
                 Description = "25% off all weekend hotel stays and attraction packages",
-                ImageUrl = "weekend_getaway.jpg",
+                ImageUrl = "Resources/Images/weekend_getaway.jpg",
                 ValidUntil = DateTime.Now.AddDays(60)
             },
             new Promotion
@@ -37,7 +37,7 @@ namespace SwanCity.Services
                 Id = "4",
                 Title = "Early Bird Special",
                 Description = "15% off all bookings made before 9 AM",
-                ImageUrl = "early_bird.jpg",
+                ImageUrl = "Resources/Images/early_bird.jpg",
                 ValidUntil = DateTime.Now.AddDays(90)
             },
             new Promotion
@@ -45,7 +45,7 @@ namespace SwanCity.Services
                 Id = "5",
                 Title = "Group Discount",
                 Description = "10% off for groups of 5 or more",
-                ImageUrl = "group_discount.jpg",
+                ImageUrl = "Resources/Images/group_discount.jpg",
                 ValidUntil = DateTime.Now.AddDays(120)
             }
         };

@@ -10,42 +10,62 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
             <Label Text="Current Promotions"
-                   FontSize="18"
-                   FontAttributes="Bold"/>
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
             
             <CollectionView ItemsSource="{Binding Promotions}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Promotion">
                         <Grid Padding="10">
-                            <Frame CornerRadius="10"
-                                   BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
-                                                                   Dark={StaticResource DarkCardBackground}}">
+                            <Border Stroke="Transparent"
+                                    StrokeShape="RoundRectangle 15"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackground}, 
+                                                                    Dark={StaticResource DarkCardBackground}}"
+                                    Shadow="{AppThemeBinding Light={StaticResource CardShadowLight}, 
+                                                            Dark={StaticResource CardShadowDark}}">
                                 <Grid ColumnDefinitions="Auto,*"
-                                      RowDefinitions="Auto,Auto,Auto"
-                                      ColumnSpacing="10">
+                                      RowDefinitions="Auto,Auto,Auto,Auto"
+                                      ColumnSpacing="15"
+                                      RowSpacing="8">
                                     
-                                    <Image Source="{Binding ImageUrl}"
-                                           Aspect="AspectFill"
-                                           HeightRequest="80"
-                                           WidthRequest="80"
-                                           Grid.RowSpan="3"/>
+                                    <Border Stroke="Transparent"
+                                            StrokeShape="RoundRectangle 10"
+                                            Padding="0"
+                                            HeightRequest="120"
+                                            WidthRequest="120"
+                                            Grid.RowSpan="4">
+                                        <Image Source="{Binding ImageUrl}"
+                                               Aspect="AspectFill"/>
+                                    </Border>
                                     
                                     <Label Text="{Binding Title}"
-                                           FontSize="16"
+                                           FontSize="18"
                                            FontAttributes="Bold"
+                                           TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
                                            Grid.Column="1"/>
                                     
                                     <Label Text="{Binding Description}"
                                            FontSize="14"
+                                           TextColor="{AppThemeBinding Light={StaticResource SecondaryText}, Dark={StaticResource SecondaryTextDark}}"
                                            Grid.Column="1"
                                            Grid.Row="1"/>
                                     
                                     <Label Text="{Binding ValidUntil, StringFormat='Valid until: {0:d}'}"
-                                           FontSize="14"
+                                           FontSize="12"
+                                           TextColor="{AppThemeBinding Light={StaticResource TertiaryText}, Dark={StaticResource TertiaryTextDark}}"
                                            Grid.Column="1"
                                            Grid.Row="2"/>
+                                    
+                                    <ProgressBar Progress="{Binding DaysRemaining}"
+                                                 ProgressColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                                                 Grid.Column="1"
+                                                 Grid.Row="3"
+                                                 Margin="0,10,0,0"/>
                                 </Grid>
-                            </Frame>
+                            </Border>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

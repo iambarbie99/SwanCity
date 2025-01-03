@@ -7,31 +7,61 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
             <Label Text="Admin Panel"
-                   FontSize="24"
+                   FontSize="28"
                    FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
             
-            <!-- Navigation Buttons -->
+            <!-- Management Section -->
+            <Label Text="Management"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                   Margin="0,10,0,10"/>
+            
             <Button Text="Manage Routes"
                     Clicked="NavigateToRoutes"
-                    Style="{StaticResource PrimaryButton}"/>
+                    Style="{StaticResource PrimaryButton}"
+                    FontSize="16"
+                    HeightRequest="60"
+                    CornerRadius="10"/>
             
             <Button Text="Manage Packages"
                     Clicked="NavigateToPackages"
-                    Style="{StaticResource PrimaryButton}"/>
+                    Style="{StaticResource PrimaryButton}"
+                    FontSize="16"
+                    HeightRequest="60"
+                    CornerRadius="10"/>
             
             <Button Text="Manage Promotions"
                     Clicked="NavigateToPromotions"
-                    Style="{StaticResource PrimaryButton}"/>
+                    Style="{StaticResource PrimaryButton}"
+                    FontSize="16"
+                    HeightRequest="60"
+                    CornerRadius="10"/>
             
             <Button Text="Manage Notifications"
                     Clicked="NavigateToNotifications"
-                    Style="{StaticResource PrimaryButton}"/>
+                    Style="{StaticResource PrimaryButton}"
+                    FontSize="16"
+                    HeightRequest="60"
+                    CornerRadius="10"/>
+            
+            <!-- Navigation Section -->
+            <Label Text="Navigation"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                   Margin="0,30,0,10"/>
             
             <Button Text="Back to User View"
                     Clicked="NavigateToUserView"
                     Style="{StaticResource SecondaryButton}"
-                    Margin="0,40,0,0"/>
+                    FontSize="16"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0,0,0,20"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -23,6 +23,21 @@
         Route="PromotionsPage" />
 
     <ShellContent
+        Title="Advertising Corner"
+        ContentTemplate="{DataTemplate local:Views.AdvertisingCornerPage}"
+        Route="AdvertisingCornerPage" />
+
+    <ShellContent
+        Title="Weather"
+        ContentTemplate="{DataTemplate local:Views.WeatherPage}"
+        Route="WeatherPage" />
+
+    <ShellContent
+        Title="Share Review"
+        ContentTemplate="{DataTemplate local:Views.ReviewSharePage}"
+        Route="ReviewSharePage" />
+
+    <ShellContent
         Title="Profile"
         ContentTemplate="{DataTemplate local:Views.ProfilePage}"
         Route="ProfilePage" />

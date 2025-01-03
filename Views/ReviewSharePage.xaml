@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwanCity.Views.ReviewSharePage"
+             Title="Share Review">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            
+            <!-- Review Title -->
+            <Label Text="Review Title"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="Enter review title"
+                   Text="{Binding ReviewTitle}"/>
+            
+            <!-- Rating -->
+            <Label Text="Rating (1-5)"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+            <Picker Title="Select rating"
+                    ItemsSource="{Binding RatingOptions}"
+                    SelectedItem="{Binding SelectedRating}"/>
+            
+            <!-- Review Text -->
+            <Label Text="Your Review"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+            <Editor Placeholder="Write your review..."
+                    HeightRequest="150"
+                    Text="{Binding ReviewText}"/>
+            
+            <!-- Share Button -->
+            <Button Text="Share Review"
+                    Command="{Binding ShareReviewCommand}"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    CornerRadius="8"
+                    Padding="20,10"
+                    HorizontalOptions="Fill"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

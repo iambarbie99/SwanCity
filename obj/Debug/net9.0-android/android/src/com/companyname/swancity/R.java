@@ -11983,15 +11983,17 @@ public final class R {
     public static final int placeholder=0x7f0700fc;
     public static final int splash=0x7f0700fd;
     public static final int summer_special=0x7f0700fe;
-    public static final int sunset_cruise=0x7f0700ff;
-    public static final int swan_river_cruise=0x7f070100;
-    public static final int test_level_drawable=0x7f070101;
-    public static final int tooltip_frame_dark=0x7f070102;
-    public static final int tooltip_frame_light=0x7f070103;
-    public static final int walking_tour=0x7f070104;
-    public static final int weekend_getaway=0x7f070105;
-    public static final int wildlife_adventure=0x7f070106;
-    public static final int wine_country=0x7f070107;
+    public static final int sunny_weather=0x7f0700ff;
+    public static final int sunset_cruise=0x7f070100;
+    public static final int swan_river=0x7f070101;
+    public static final int swan_river_cruise=0x7f070102;
+    public static final int test_level_drawable=0x7f070103;
+    public static final int tooltip_frame_dark=0x7f070104;
+    public static final int tooltip_frame_light=0x7f070105;
+    public static final int walking_tour=0x7f070106;
+    public static final int weekend_getaway=0x7f070107;
+    public static final int wildlife_adventure=0x7f070108;
+    public static final int wine_country=0x7f070109;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

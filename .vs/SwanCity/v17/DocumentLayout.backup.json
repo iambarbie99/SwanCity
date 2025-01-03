@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\viewmodels\\attractionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:viewmodels\\attractionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\services\\attractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:services\\attractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\views\\promotionspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -13,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\views\\promotionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:views\\promotionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\viewmodels\\attractionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:viewmodels\\attractionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|solutionrelative:models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7045641-B33E-488C-B7AC-827BF262C21C}|SwanCity.csproj|c:\\users\\junei\\downloads\\github\\swancity\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,24 +54,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Views\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Views\\AdminPage.xaml",
+              "RelativeToolTip": "Views\\AdminPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T03:36:20.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T18:45:59.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttractionService.cs",
+              "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Services\\AttractionService.cs",
+              "RelativeDocumentMoniker": "Services\\AttractionService.cs",
+              "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Services\\AttractionService.cs",
+              "RelativeToolTip": "Services\\AttractionService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:14:48.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PromotionService.cs",
               "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Services\\PromotionService.cs",
               "RelativeDocumentMoniker": "Services\\PromotionService.cs",
               "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Services\\PromotionService.cs",
               "RelativeToolTip": "Services\\PromotionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:35:30.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T12:35:30.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "PromotionsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Views\\PromotionsPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\PromotionsPage.xaml.cs",
@@ -59,12 +114,11 @@
               "RelativeToolTip": "Views\\PromotionsPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:35:20.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T12:35:20.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "PromotionsPage.xaml",
               "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Views\\PromotionsPage.xaml",
               "RelativeDocumentMoniker": "Views\\PromotionsPage.xaml",
@@ -72,8 +126,7 @@
               "RelativeToolTip": "Views\\PromotionsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-02T12:35:11.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T12:35:11.471Z"
             },
             {
               "$type": "Document",
@@ -83,14 +136,38 @@
               "RelativeDocumentMoniker": "ViewModels\\AttractionsViewModel.cs",
               "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\ViewModels\\AttractionsViewModel.cs",
               "RelativeToolTip": "ViewModels\\AttractionsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAIA2wIwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T10:48:15.152Z",
+              "WhenOpened": "2025-01-02T10:48:15.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:44:59.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAjwJAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:22:57.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Route.cs",
               "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Models\\Route.cs",
               "RelativeDocumentMoniker": "Models\\Route.cs",
@@ -102,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\junei\\Downloads\\GitHub\\SwanCity\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",

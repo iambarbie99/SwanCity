@@ -10,28 +10,45 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
             <!-- Profile Image -->
-            <Image Source="{Binding ProfileImageUrl, TargetNullValue='default_profile.png'}"
-                   Aspect="AspectFill"
-                   HeightRequest="100"
-                   WidthRequest="100"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
-                   x:DataType="models:UserProfile"/>
+            <Border Stroke="Transparent"
+                    StrokeShape="RoundRectangle 50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Padding="0"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    Shadow="{AppThemeBinding Light={StaticResource CardShadowLight}, 
+                                            Dark={StaticResource CardShadowDark}}">
+                <Image Source="{Binding ProfileImageUrl, TargetNullValue='default_profile.png'}"
+                       Aspect="AspectFill"/>
+            </Border>
 
-            <!-- Profile Fields -->
+            <!-- Personal Information Section -->
+            <Label Text="Personal Information"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                   Margin="0,20,0,10"/>
+            
             <Entry Text="{Binding FullName, TargetNullValue=''}"
                    Placeholder="Full Name"
-                   Style="{StaticResource FormEntry}"/>
+                   Style="{StaticResource FormEntry}"
+                   FontSize="16"
+                   TextColor="{AppThemeBinding Light={StaticResource PrimaryText}, Dark={StaticResource PrimaryTextDark}}"/>
             
             <Entry Text="{Binding Email, TargetNullValue=''}"
                    Placeholder="Email"
                    Keyboard="Email"
-                   Style="{StaticResource FormEntry}"/>
+                   Style="{StaticResource FormEntry}"
+                   FontSize="16"
+                   TextColor="{AppThemeBinding Light={StaticResource PrimaryText}, Dark={StaticResource PrimaryTextDark}}"/>
             
             <Entry Text="{Binding PhoneNumber, TargetNullValue=''}"
                    Placeholder="Phone Number"
                    Keyboard="Telephone"
-                   Style="{StaticResource FormEntry}"/>
+                   Style="{StaticResource FormEntry}"
+                   FontSize="16"
+                   TextColor="{AppThemeBinding Light={StaticResource PrimaryText}, Dark={StaticResource PrimaryTextDark}}"/>
 
             <!-- Save Button -->
             <Button Text="Save Profile"
